@@ -25,7 +25,7 @@ Based on cross correlation, maximum value is determined, further it's used for T
     template image is found to construct the correlation map. After sliding through all the pixels in the template image, the maximum coefficient is obtained from the map. 
     The pixel position with maximum value is the starting point of the target image.
 
-3.TemplateGUI.m: For creating GUI in MATLAB, enter "guide" in command box and pop up will appear, which will help to create GUI. It's simple drag and drop method which 
+3. TemplateGUI.m: For creating GUI in MATLAB, enter "guide" in command box and pop up will appear, which will help to create GUI. It's simple drag and drop method which 
 create .fig file and automatically one .m file of same name of GUI file will be create. Simply add the commands related to image fetching like i did on line no 105-112.
 
 To RUN this program open TemplateGUI.fig browse the image and output name will be displayed.
